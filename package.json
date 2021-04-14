@@ -1,13 +1,16 @@
 {
   "name": "tasks",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "patch": "yarn version --patch",
+    "end-sprint": "yarn version --minor",
+    "release": "yarn version --major"
   },
   "dependencies": {
     "@react-native-community/async-storage": "1.7.1",
